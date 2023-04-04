@@ -1,0 +1,82 @@
+{% load static %}
+<html>
+    <head>
+        <title>Bootstrap page</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap-grid.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+
+
+
+    </head>
+<body style="background-image:url('{% static 'images/cricket.jpeg' %}');background-size:cover;" >
+   
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">VIEW</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">MORE</a>
+        </li>
+      </ul>
+
+    <div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/dhoni1.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mr.Dhoni</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://en.wikipedia.org/wiki/MS_Dhoni" class="btn btn-primary">click to more</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/virat1.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mr.Virat</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://en.wikipedia.org/wiki/Virat_Kohli" class="btn btn-secondary">click to more</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/rohit1.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mr.Rohit</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://en.wikipedia.org/wiki/Rohit_Sharma" class="btn btn-success">click to more</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/sachin1.jpeg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mr.Sachin</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://en.wikipedia.org/wiki/Sachin_Tendulkar" class="btn btn-dark">click to more</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+</body>
+</html>
